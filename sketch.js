@@ -21,7 +21,7 @@ function preload(){
   
   jugador_img = loadImage("tortuga.png");
   
-  fondoImage = loadImage("mar3.png");
+  fondoImage = loadImage("fondov1.png");
   cloudImage = loadImage("cloud.png");
 
   
