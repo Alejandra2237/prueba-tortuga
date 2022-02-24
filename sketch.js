@@ -113,6 +113,7 @@ function draw() {
     
     if (touches.length > 0){
       gameState = PLAY;
+      touches = [];
       
     }
   }
