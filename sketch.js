@@ -26,10 +26,6 @@ function preload(){
 
   
   obstacle1 = loadImage("bolsa.png");
-  
-  //JumpSound = loadSound("");
-  //DieSound = loadSound("");
-  
 
 
   
@@ -64,7 +60,7 @@ function setup() {
   fondo.scale=1.3
   
    gameOver = createSprite(width/2,height/2-70);
-  //gameOver.addImage(img);
+
   gameOver.scale=0.01;
   
   restart = createSprite(width/2,height/2-10);
@@ -76,7 +72,7 @@ function setup() {
   gameOver.visible = false;
   restart.visible = false;
   
-  fondoGround = createSprite(width/2,height,width,10);
+  fondoGround = createSprite(width/2,height-10,width,15);
   fondoGround.visible = false;
   
  
@@ -101,7 +97,7 @@ function draw() {
   background("skyblue");
   textSize(15);
   fill("orange")
-  text("Puntuación: "+ score, width/2+80,50);
+  text("Puntuación: "+ score, width-200,50);
   text("Max puntuación: "+ hight,0,50)
   
   if (gameState===inicio){
