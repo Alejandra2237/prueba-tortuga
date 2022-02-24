@@ -97,7 +97,7 @@ function draw() {
   background("skyblue");
   textSize(15);
   fill("orange")
-  text("Puntuación: "+ score, width-200,50);
+  text("PuntuaciónV1: "+ score, width-200,50);
   text("Max puntuación: "+ hight,0,50)
   
   if (gameState===inicio){
