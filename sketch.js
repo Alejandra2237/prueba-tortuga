@@ -129,7 +129,7 @@ function draw() {
     }
     
     spawnObstacles();
-    //spawnClouds();
+    spawnClouds();
     
     if (keyDown("up_arrow") && jugador.y  >= height/2+50) {
       
