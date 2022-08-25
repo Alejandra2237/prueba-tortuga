@@ -55,7 +55,7 @@ function setup() {
   
   
   fondo = createSprite(width/2,height/2+186,width,height-(height/2));
-  //fondo.addImage("fondo",fondoImage);
+  fondo.addImage("fondo",fondoImage);
   fondo.x = fondo.width/2+50;
   fondo.scale=1.3
   
