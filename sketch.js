@@ -241,7 +241,7 @@ function spawnClouds() {
     cloud.velocityX = -3;
     
      
-    cloud.lifetime = width+5;
+    cloud.lifetime = width+2;
     
     cloud.depth = gameOver.depth;
   gameOver.depth = gameOver.depth + 1;
@@ -265,7 +265,7 @@ if (frameCount % 40 === 0) {
   obstacle.velocityX = -(10.5 + 3*score/100);
               
     obstacle.scale = 0.3;
-    obstacle.lifetime = width+5;
+    obstacle.lifetime = width+2;
     
     obstaclesGroup.add(obstacle);
   
